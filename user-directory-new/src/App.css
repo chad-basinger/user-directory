@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  width: fill;
+  height: 5vh;
+  background-color: rgb(78, 149, 209);
+
+  
+}
+
+body {
+  
+  background-color: black;
+}
+.card {
+  width: 80%;
+  height: 75%;
+  margin: 0 auto;
+  background-color: lightblue;
+}
+
+.buttons-section {
+  width: 50%;
+
+  background-color: black;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  
+}

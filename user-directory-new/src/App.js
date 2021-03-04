@@ -6,7 +6,9 @@ import NoteCard from './Components/NoteCard'
 function App() {
   return (
     <div className="App">
-      <h1 className='home'>Home</h1>
+      <header>
+        <h1 className='home'>Home</h1>
+      </header>
       <SlideShow/>
     </div>
   );
