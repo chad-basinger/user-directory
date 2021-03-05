@@ -39,10 +39,15 @@
 
 header {
   width: fill;
-  height: 5vh;
+  height: 7vh;
   background-color: rgb(78, 149, 209);
+  display: flex;
+  align-items: flex-start;
+  padding-left: 50px;
+}
 
-  
+h1 {
+  text-decoration: underline lightskyblue;
 }
 
 body {
@@ -53,15 +58,101 @@ body {
   width: 80%;
   height: 75%;
   margin: 0 auto;
-  background-color: lightblue;
+  margin-top: 100px;
+  background-color: white;
+}
+
+.card-info {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 0px;
+  text-align: left;
+  line-height: 5px;
+  padding-top: 30px;
+}
+
+.from {
+  display: flex;
+  flex-direction: row;
+}
+
+.prop {
+  font-weight: bold;
+}
+
+.value {
+  font-weight:normal;
+}
+
+.job {
+  display: flex;
+  flex-direction: row;
+}
+
+.employer {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-number {
+  position: relative;
+  float: right;
+  right: 0px;
+  top: -20px;
+}
+
+ol {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+}
+
+.movies {
+  padding-bottom: 10px;
+}
+
+li {
+  text-align: left;
+  line-height: 30px;
 }
 
 .buttons-section {
-  width: 50%;
-
+  width: 80%;
   background-color: black;
-  display: flex;
   margin: 0 auto;
-  justify-content: space-between;
+}
+
+.blue-buttons {
+  width: 70px;
+  height: 30px;
+  position: relative;
+  margin-left: 20px;
+  background-color: rgb(78, 149, 209);
+  border-radius: 30%;
+  color: white;
+  font-size: large;
   
+}
+
+.previous {
+  position:absolute;
+  float: left;
+  left: 100px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: larger;
+}
+
+.next {
+  position:absolute;
+  float: right;
+  right: 100px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: larger;
 }
