@@ -9,7 +9,7 @@ const NoteCard = (props) => {
                     <h1 className='card-number'>{data[index].id}/{data.length}</h1>
                 </div>
                 <div className='card-info'>
-                    <h1>{data[index].name.first} {data[index].name.last}</h1>
+                    <h1 className='name'>{data[index].name.first} {data[index].name.last}</h1>
                     <div className='from'>
                         <h3 className='prop'>From: </h3> 
                         <h3 className='value'>{data[index].city},</h3>

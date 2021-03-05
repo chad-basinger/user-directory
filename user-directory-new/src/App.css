@@ -46,7 +46,7 @@ header {
   padding-left: 50px;
 }
 
-h1 {
+.name {
   text-decoration: underline lightskyblue;
 }
 
